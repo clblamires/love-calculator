@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
+
+* { box-sizing: border-box; }
+
+body {
+    background: #06bec0;
+}
+
+h1 {
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    margin: 3em 0 2em 0;
+}
+
+input[type=text] {
+    border: none;
+    background: none;
+    text-align: center;
+    border: solid 2px rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+    font-size: 130%;
+    font-family: "Roboto", sans-serif;
+    padding: 6px;
+    color: white;
+}
+input[type=text]:focus {
+    outline: none;
+}
+::placeholder {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+i {
+    color: white;
+    display: block !important;
+    text-align: center;
+    font-size: 200%;
+    margin: .5em;
+}
+
+button {
+    border: none;
+    background: white;
+    text-align: center;
+    border: solid 2px rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+    display: block;
+    width: 80%;
+    margin: 2em auto;
+    font-size: 130%;
+    font-family: "Roboto", sans-serif;
+    padding: 6px;
+    color: #06bec0;
+}
+button:focus {
+    outline: none;
+}
+
+.percentage {
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    font-size: 400%;
+}
+
+.message {
+    font-family: "Roboto", sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 200%;
+}
